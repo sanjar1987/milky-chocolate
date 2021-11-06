@@ -1,0 +1,713 @@
+@media(max-width:1400px) {
+    .milky_main {
+        font-size: 170px;
+        line-height: 210px;
+    }
+
+    .products_box_bottom {
+        padding: 20px;
+    }
+
+    .box {
+        height: 100%;
+    }
+
+    .box_title {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: var(--mon700);
+        font-size: 10px;
+        line-height: 17px;
+        color: white;
+        width: 100%;
+        height: 50px;
+        padding: 0;
+        background-color: var(--blue);
+        transition: .3s;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .order_title {
+        width: 20%;
+    }
+}
+
+@media(max-width:1200px) {
+    .milky_main {
+        font-size: 140px;
+        line-height: 200px;
+    }
+
+    .milky_img {
+        width: 100%;
+    }
+
+    .blue {
+        /* height: 900px; */
+    }
+
+    .title_box {
+        margin-top: 145px;
+    }
+
+    .milky_img {
+        top: 83px;
+        left: 0;
+    }
+
+    .products {
+        margin-top: 50px;
+    }
+
+    .topic {
+        margin-bottom: 50px;
+    }
+
+    .products_box_bottom {
+        padding: 10px;
+    }
+
+    .clients_main {
+        gap: 80px;
+    }
+}
+
+@media(max-width:991px) {
+    .milky_main {
+        font-size: 100px;
+        line-height: 180px;
+    }
+
+    .blue {
+        /* height: 750px; */
+        /* left: 50%; */
+    }
+
+    .title_box {
+        margin-top: 125px;
+    }
+
+    .dots_box {
+        margin-top: 100px;
+    }
+
+    .milky {
+        display: none;
+    }
+
+    .navbar_main {
+        display: inline;
+    }
+
+    .milky_text {
+        padding: 0;
+    }
+
+    .milky_list {
+        margin: 0;
+    }
+
+    .milky_text li {
+        margin-top: 15px;
+    }
+
+    .milky_img {
+        top: 83px;
+        left: 0;
+    }
+
+    .blue {
+        top: 0;
+    }
+
+    .products {
+        margin-top: 50px;
+    }
+
+    .header {
+        height: 750px;
+    }
+
+    .topic {
+        margin-bottom: 50px;
+    }
+
+    .products_box_bottom {
+        padding: 30px;
+    }
+
+    .cakes {
+        row-gap: 40px;
+    }
+
+    .clients_boks {
+        padding: 10px;
+        overflow-y: auto;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: orange;
+    }
+
+    ::-webkit-scrollbar {
+        width: 3px;
+    }
+
+    .clients_main {
+        gap: 60px;
+    }
+
+    .clients {
+        margin-top: 100px;
+    }
+
+    .topic_client {
+        margin-bottom: 30px;
+    }
+
+    .clients_main {
+        gap: 50px;
+    }
+
+    .topic_contact {
+        margin-bottom: 40px;
+        margin-top: 90px;
+    }
+
+    .contacts {
+        margin-top: 0;
+    }
+
+    .icon_box1 {
+        margin: 0;
+    }
+
+    .sign_text {
+        margin: 0;
+    }
+
+    .companies {
+        row-gap: 25px;
+    }
+
+    .sign_text {
+        margin-left: 15px;
+    }
+
+    .volume {
+        margin-left: 5px;
+    }
+
+    .volume_text {
+        margin-left: 20px;
+    }
+
+    .order_title {
+        width: 35%;
+    }
+
+    .footer {
+        margin-top: 50px;
+        height: 200px;
+    }
+    .phone{
+        display: none;
+    }
+    .footer_milky_list{
+        display: none;
+    }
+}
+
+@media(max-width:767px) {
+    .milky_main {
+        font-size: 75px;
+        line-height: 100px;
+    }
+
+    .milky_list {
+        font-size: 13px;
+        line-height: 19.5px;
+    }
+
+    .milky_text li {
+        margin-top: 10px;
+    }
+
+    .blue {
+        height: 700px;
+    }
+
+    .title_box {
+        margin-top: 100px;
+    }
+
+    .dots_box {
+        margin-top: 80px;
+    }
+
+    .milky_img {
+        top: 43px;
+        width: 70%;
+        left: 20%;
+    }
+
+    .blue {
+        height: 110%;
+    }
+
+    .products {
+        margin-top: 0px;
+    }
+
+    .header {
+        height: 100%;
+    }
+
+    .topic {
+        margin-bottom: 30px;
+        margin-top: 100px;
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .products_box_bottom {
+        padding: 20px;
+    }
+
+    .cakes {
+        row-gap: 10px;
+    }
+
+    .box {
+        width: 270px;
+        height: 440px;
+    }
+
+    .clients_main {
+        gap: 50px;
+    }
+
+    .boks {
+        flex-direction: column;
+    }
+
+    .clients {
+        margin-top: 0px;
+    }
+
+    .topic_client {
+        margin-bottom: 20px;
+        margin-top: 80px;
+    }
+
+    .clients_main {
+        gap: 40px;
+    }
+
+    .map {
+        height: 300px;
+    }
+
+    .icon_box1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icon_box2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .order_title {
+        width: 50%;
+    }
+
+    .order {
+        margin-top: 50px;
+    }
+}
+
+@media(max-width:534px) {
+    .milky_list {
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    .milky_text li {
+        margin-top: 5px;
+    }
+
+    .milky_main {
+        text-align: center;
+        font-size: 50px;
+        line-height: 80px;
+    }
+
+    .title_box {
+        margin-top: 100px;
+    }
+
+    .dots_box {
+        margin-top: 80px;
+    }
+
+    .title_box {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        line-height: 17px;
+        color: white;
+        width: 120px;
+        height: 40px;
+        padding: 0;
+        margin-right: 0px;
+        margin-top: 10px;
+    }
+
+    .dots_box {
+        margin-top: 50px;
+    }
+
+    .dots {
+        height: 6px;
+        width: 6px;
+        border-radius: 50%;
+        margin-right: 8px;
+        background: #CCCCCC;
+    }
+
+    .products_box_bottom {
+        padding: 10px;
+    }
+
+    .cakes {
+        row-gap: 10px;
+    }
+
+    .box {
+        width: 100%;
+        height: 100%;
+    }
+
+    .topic {
+        margin-bottom: 20px;
+        margin-top: 90px;
+        font-size: 37px;
+        line-height: 45px;
+    }
+
+    .topic::before {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .products_title {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .products_list {
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    .products_list::after {
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    .box_title {
+        font-size: 7px;
+        line-height: 10px;
+        height: 30px;
+        width: 100%;
+    }
+
+    .boks {
+        height: 600px;
+        padding-top: 7px;
+    }
+
+    .boks img {
+        object-fit: cover;
+    }
+
+    .clients_title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .clients_text {
+        font-size: 21px;
+        line-height: 28px;
+    }
+
+    .icon_text {
+        font-size: 16px;
+        line-height: 20px;
+        margin-left: 15px;
+    }
+
+    .icons {
+        font-size: 28px;
+    }
+
+    .order_title {
+        width: 50%;
+        height: 50px;
+        font-size: 12px;
+    }
+
+    .order {
+        margin-top: 40px;
+    }
+
+    .footer_title {
+        font-size: 21px;
+
+    }
+
+    .footer {
+        margin-top: 40px;
+        padding-top: 23px;
+        height: 150px;
+    }
+}
+
+@media(max-width:367px) {
+    .milky_list {
+        font-size: 9px;
+        line-height: 12px;
+    }
+
+    .milky_text li {
+        margin-top: 0px;
+    }
+
+    .milky_main {
+        text-align: center;
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .title_box {
+        margin-top: 100px;
+    }
+
+    .dots_box {
+        margin-top: 50px;
+    }
+
+    .title_box {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .title {
+        font-size: 9px;
+        line-height: 17px;
+        width: 100px;
+        height: 30px;
+        margin-top: 8px;
+    }
+
+    .dots_box {
+        margin-top: 50px;
+    }
+
+    .dots {
+        height: 6px;
+        width: 6px;
+        border-radius: 50%;
+        margin-right: 8px;
+        background: #CCCCCC;
+    }
+
+    .topic {
+        margin-bottom: 10px;
+        margin-top: 90px;
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .topic::before {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .boks {
+        height: 500px;
+    }
+
+    .clients_title {
+        font-size: 23px;
+        line-height: 30px;
+    }
+
+    .clients_text {
+        font-size: 19px;
+        line-height: 25px;
+    }
+
+    .topic_client {
+        margin-bottom: 20px;
+        margin-top: 50px;
+    }
+
+    .clients_main {
+        gap: 30px;
+    }
+
+    .topic_contact {
+        margin-bottom: 20px;
+        margin-top: 70px;
+    }
+
+    .icon_text {
+        font-size: 14px;
+        line-height: 18px;
+        margin-left: 10px;
+    }
+
+    .icons {
+        font-size: 26px;
+    }
+
+    .order_title {
+        width: 80%;
+        height: 40px;
+        font-size: 10px;
+    }
+
+    .order {
+        margin-top: 30px;
+    }
+
+    .footer_title {
+        font-size: 19px;
+
+    }
+
+    .footer {
+        margin-top: 30px;
+        padding-top: 15px;
+        height: 100px;
+    }
+}
+
+@media(max-width:320px) {
+    .products_title {
+        font-size: 11px;
+        line-height: 16px;
+    }
+
+    .products_list {
+        font-size: 8px;
+        line-height: 15px;
+    }
+
+    .products_list::after {
+        font-size: 8px;
+        line-height: 15px;
+    }
+
+    .boks {
+        height: 400px;
+    }
+
+    .clients_title {
+        font-size: 21px;
+        line-height: 28px;
+    }
+
+    .clients_text {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .topic_client {
+        margin-bottom: 10px;
+        margin-top: 50px;
+    }
+
+    .clients_main {
+        gap: 15px;
+    }
+
+    .icon_text {
+        font-size: 12px;
+        line-height: 13px;
+    }
+
+    .icons {
+        font-size: 24px;
+    }
+
+    .order {
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:295px) {
+    .milky_main {
+        text-align: center;
+        font-size: 30px;
+        line-height: 60px;
+    }
+
+    .title_box {
+        margin-top: 90px;
+    }
+
+    .dots_box {
+        margin-top: 40px;
+    }
+
+    .title_box {
+        margin-top: 30px;
+    }
+
+    .dots {
+        margin-right: 4px;
+    }
+
+    .title {
+        font-size: 7px;
+        line-height: 17px;
+        width: 80px;
+        height: 25px;
+        margin-top: 4px;
+    }
+
+    .dots {
+        height: 6px;
+        width: 6px;
+        border-radius: 50%;
+        margin-right: 8px;
+        background: #CCCCCC;
+    }
+
+    .topic {
+        margin-bottom: 3px;
+        margin-top: 70px;
+        font-size: 23px;
+        line-height: 23px;
+    }
+
+    .topic::before {
+        font-size: 13px;
+        line-height: none;
+    }
+
+}
